@@ -13140,7 +13140,7 @@ div#notebook {
 <h3 id="Get-the-Data">Get the Data<a class="anchor-link" href="#Get-the-Data">&#182;</a></h3><p>You'll be using the <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">CelebFaces Attributes Dataset (CelebA)</a> to train your adversarial networks.</p>
 <p>This dataset is more complex than the number datasets (like MNIST or SVHN) you've been working with, and so, you should prepare to define deeper networks and train them for a longer time to get good results. It is suggested that you utilize a GPU for training.</p>
 <h3 id="Pre-processed-Data">Pre-processed Data<a class="anchor-link" href="#Pre-processed-Data">&#182;</a></h3><p>Since the project's main focus is on building the GANs, we've done <em>some</em> of the pre-processing for you. Each of the CelebA images has been cropped to remove parts of the image that don't include a face, then resized down to 64x64x3 NumPy images. Some sample data is show below.</p>
-<p><img src='assets/processed_face_data.png' width=60% /></p>
+<p><img src='images/processed_face_data.png' width=60% /></p>
 <blockquote><p>If you are working locally, you can download this data <a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip">by clicking here</a></p>
 </blockquote>
 <p>This is a zip file that you'll need to extract in the home directory of this notebook for further loading and processing. After extracting the data, you should be left with a directory of data <code>processed_celeba_small/</code></p>
