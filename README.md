@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/Generate-Faces.jpg" width="300" />
+<img src="assets/generate-faces.jpg" width="300" />
 <br />
 <h1>Generate Faces</h1>
 </div>
